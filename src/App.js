@@ -4,6 +4,7 @@ import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
 import User from './components/User'
+import Clock from './components/Clock'
 
 class App extends Component {
   render() {
@@ -26,8 +27,9 @@ class App extends Component {
 
         <main>
           <Title content = 'some simple title' />
-          <LightSwitch></LightSwitch>
+          <LightSwitch/>
           <User content = 'AIAIAIA'></User>
+          <Clock/>
         </main>
       </div>
     );
